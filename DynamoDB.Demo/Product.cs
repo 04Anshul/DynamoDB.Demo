@@ -13,8 +13,6 @@ namespace DynamoDB.Demo
         public string? Name { get; set; }
         [DynamoDBProperty("description")]
         public string? Description { get; set; }
-        [DynamoDBProperty("price")]
-        public string? Price { get; set; }
 
     }
 }
